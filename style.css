@@ -310,6 +310,15 @@ footer {
 .facebook:hover {
   content: url(./images/icon-facebook-hover.svg);
 }
+.instagram:hover {
+  content: url(./images/icon-instagram-hover.svg);
+}
+.twitter:hover {
+  content: url(./images/icon-twitter-hover.svg);
+}
+.pinterest:hover {
+  content: url(./images/icon-pinterest-hover.svg);
+}
 
 /* responsive */
 
