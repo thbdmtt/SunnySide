@@ -72,13 +72,10 @@ h1,
   text-transform: uppercase;
   font-size: 0.8rem;
 }
-/* .contact a:hover {
-  color: white;
-} */
 .contact:hover,
-a:hover {
+.link:hover {
   color: #fff;
-  background-color: hsl(200, 100%, 62%, 0.1);
+  background-color: rgb(62, 190, 254);
 }
 
 /* 1st Section */
@@ -124,6 +121,7 @@ a:hover {
 }
 
 /* 2nd section */
+
 .second-section {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -163,6 +161,7 @@ a:hover {
 }
 
 /* 3rd section */
+
 .third-section {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -237,6 +236,7 @@ span {
 }
 
 /* section pictures */
+
 .pictures {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -304,20 +304,40 @@ footer {
   list-style: none;
   margin: 79px auto;
 }
-.contact-footer li a {
-  padding: 14px;
+.icon {
+  padding: 28px;
+}
+.facebook {
+  background-image: url(images/icon-facebook.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .facebook:hover {
-  content: url(./images/icon-facebook-hover.svg);
+  background-image: url(images/icon-facebook-hover.svg);
+}
+.instagram {
+  background-image: url(images/icon-instagram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .instagram:hover {
-  content: url(./images/icon-instagram-hover.svg);
+  background-image: url(images/icon-instagram-hover.svg);
+}
+.twitter {
+  background-image: url(images/icon-twitter.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .twitter:hover {
-  content: url(./images/icon-twitter-hover.svg);
+  background-image: url(images/icon-twitter-hover.svg);
+}
+.pinterest {
+  background-image: url(images/icon-pinterest.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .pinterest:hover {
-  content: url(./images/icon-pinterest-hover.svg);
+  background-image: url(images/icon-pinterest-hover.svg);
 }
 
 /* responsive */

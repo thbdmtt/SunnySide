@@ -2,9 +2,6 @@ const btn = document.querySelector('.hamburger')
 const nav = document.querySelector('nav ul')
 const title = document.querySelector('.title')
 
-// btn.addEventListener('click', () => {
-//   title.style.display = 'none'
-// })
 
 btn.addEventListener('click', presentation)
 
